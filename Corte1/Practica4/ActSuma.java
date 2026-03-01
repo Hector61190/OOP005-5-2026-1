@@ -63,15 +63,15 @@ public class ActSuma {
         return m;}
     
     public static void main(String[] args) {
-        ActSuma ob1 = new ActSuma(5);
+        ActSuma ob1 = new ActSuma(8);
         
         ob1.setArray();
         ob1.print("Vector");
 
         System.out.println("La Suma de los datos ingresados es: = " + ob1.sum());
         System.out.println("El Promedio de los datos ingresados es: = " + ob1.mean());
-        System.out.println("El Maximo de los datos ingresados es: = " + ob1.max());
-        System.out.println("El Minimo de los datos ingresados es: = " + ob1.min());
+        System.out.println("El valor maximo de los datos ingresados es: = " + ob1.max());
+        System.out.println("El valor minimo de los datos ingresados es: = " + ob1.min());
 
     }
 }
