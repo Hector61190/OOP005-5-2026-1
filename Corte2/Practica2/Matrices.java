@@ -1,7 +1,7 @@
 package matrices;
 import java.util.Scanner;
 
-public class Matrices { // Clase con Mayúscula
+public class Matrices { 
     private int[][] matrix;
     private int rows;
     private int cols;
