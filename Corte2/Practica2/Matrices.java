@@ -71,8 +71,7 @@ public class Matrices {
             }
             res.print("Multiplicacion");
         } else {
-            System.out.println("\n ERROR EN MULTIPLICACION: Columnas de Matriz 1 (" + m1.cols + 
-                               ") no coinciden con Filas de Matriz 2 (" + m2.rows + ").");
+            System.out.println("\n ERROR EN MULTIPLICACION: Columnas de Matriz 1 (" + m1.cols +") no coinciden con Filas de Matriz 2 (" + m2.rows + ").");
         }
     }
 
@@ -99,6 +98,6 @@ public class Matrices {
         restar(m1, m2);
         multiplicar(m1, m2);
         
-        sc.close(); // Buena práctica cerrar el scanner
+        sc.close(); 
     }
 }
