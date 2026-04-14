@@ -1,1 +1,0 @@
-Inicio segundo corte
